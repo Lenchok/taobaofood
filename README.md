@@ -32,6 +32,6 @@ driver=webdriver.Chrome(chrome_options=option)
 当然这里使用BeautifullSoup去解析也是可以的，为了学习新知识，所以用了PyQuery库解析
 PyQuery可以准确滴解析js层次的内容
 一些常用的css选择器方法：
-
+![image](https://github.com/Lenchok/taobaofood/blob/master/image/css选择器fangfa.png)
 
 详细代码在taobaofood.py里。这里也可以使用PhantomJS代替chrome模式，但PhantomJS版本有点老旧，且解析网页的时候，有部门图片没解析成功，所以我还是用了谷歌浏览器无头模式，速度快，解析工程强大。
